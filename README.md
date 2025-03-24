@@ -1,1 +1,1 @@
-# PathologistAttentionTransformer
+# Pathologist Attention Transformer
