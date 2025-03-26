@@ -1,0 +1,4 @@
+# ninja log v5
+1	13148	1680338080	/home/soura/scanpath_prediction_all-main/sptransformer/pixel_decoder/ops/build/temp.linux-x86_64-cpython-38/home/soura/scanpath_prediction_all-main/sptransformer/pixel_decoder/ops/src/cpu/ms_deform_attn_cpu.o	1becf745d051c08
+2	26666	1680338094	/home/soura/scanpath_prediction_all-main/sptransformer/pixel_decoder/ops/build/temp.linux-x86_64-cpython-38/home/soura/scanpath_prediction_all-main/sptransformer/pixel_decoder/ops/src/cuda/ms_deform_attn_cuda.o	ecc90891ff8d7bc8
+3	30098	1680338097	/home/soura/scanpath_prediction_all-main/sptransformer/pixel_decoder/ops/build/temp.linux-x86_64-cpython-38/home/soura/scanpath_prediction_all-main/sptransformer/pixel_decoder/ops/src/vision.o	c562c52049032d70
