@@ -19,5 +19,8 @@ steps below to run training and inference codes for predicting attention heatmap
 2) Run "pip install -r requirements.txt" in order to install the libraries required for this task.
 3) Download models and data at: https://drive.google.com/file/d/15dHFFgLkwh_OmkdN3KdV8bbrLwDEAZ5B/view?usp=sharing
 4) Extract the 'scanpath_drive' directory from the zip file in the link above and plug-in the models and data into the corresponding directories of 'scanpath_prediction'.
-5) Run 'train_sptransformer.py for training the PAT-S model using the feature encodings from previous stage (heatmap prediction) as the output. Run the same file in evaluation-only model (by adding '--eval_only')
+5) Run 'train_sptransformer.py' for training the PAT-S model using the feature encodings from previous stage (heatmap prediction) as the output. Run the same file in evaluation-only model (by adding '--eval_only')
    in order to run inference on the trained models.
+   Example commands:
+   Training: python train_sptransformer.py --hparams ./configs/coco_freeview_dense_SSL.json --dataset-root ./datasets/WSIs
+   Evaluation: python train_sptransformer.py --hparams ./configs/coco_freeview_dense_SSL.json --dataset-root ./datasets/WSIs --eval-only
